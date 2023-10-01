@@ -59,7 +59,7 @@ export default function Intro() {
           x: { duration: 1 },
         }}
       >
-        Hi, I'm Maria, a frontend developer. Lorem ipsum dolor, sit amet
+        Hi, I&apos;m Maria, a frontend developer. Lorem ipsum dolor, sit amet
         consectetur adipisicing elit. Omnis asperiores ratione obcaecati
         repellendus ullam eius dolor libero repellat sunt hic. Rem
         necessitatibus, rerum obcaecati provident at id commodi dolores quos!
