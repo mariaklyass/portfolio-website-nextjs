@@ -25,14 +25,18 @@ export default function About() {
       <h2 className="text-3xl font-medium capitalize mb-8 mt-2 text-center pt-2 dark:text-stone-700">
         About me
       </h2>
-      <p className="bg-slate-50/10 mix-blend-soft-luminosity rounded-lg p-3 backdrop-blur-[0.5rem] shadow-lg shadow-black/5 dark:bg-slate-50/40 dark:text-stone-950 ">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestias
-        nihil tempora est vel debitis modi, explicabo voluptates, repudiandae
-        eveniet deleniti. Cumque, autem voluptas illo nemo nihil fuga
-        exercitationem magnam. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Voluptatibus error incidunt, nemo praesentium sit,
-        suscipit ratione dicta dolor at distinctio veritatis assumenda
-        doloremque molestiae totam debitis quae omnis repellendus fuga?
+      <p className="bg-slate-50/10 mix-blend-soft-luminosity rounded-lg p-3 backdrop-blur-[0.5rem] shadow-lg shadow-black/5 dark:bg-slate-50/40 dark:text-stone-950">
+        I'm a self-taught Frontend Developer 🤓 <br />
+        I'm head over heels with web-development, and for year and a half that I
+        have been studying, this feeling has only grown. My main sources of
+        knowledge are Jonas Schmedtmann's HTML & CSS and JavaScript courses,
+        Colt Steele's React course, freeCodeCamp Responsive Web Design
+        curriculum and the Rolling Scopes School JavaScript/Front-end course.
+        ...And hundreds and hundreds of hours of Youtube videos & reading Stack
+        Overflow 😅 <br /> I enjoy the process of learning new stuff, especially
+        the moment of doing something that was difficult and unclear before.{" "}
+        <br />
+        Besides programming, I like music and going to the gym.
       </p>
     </section>
   );

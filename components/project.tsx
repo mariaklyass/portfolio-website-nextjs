@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -12,6 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  codeSnippet,
   linkDeploy,
   linkCode,
 }: ProjectProps) {
@@ -23,6 +24,16 @@ export default function Project({
 
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+
+  const [image, setImage] = useState(imageUrl);
+  const toggleImage = () => {
+    let value = image;
+    if (value === imageUrl) {
+      setImage(codeSnippet);
+    } else {
+      setImage(imageUrl);
+    }
+  };
 
   return (
     <motion.div
@@ -55,10 +66,11 @@ export default function Project({
 
         <div className="mt-auto">
           <Image
-            src={imageUrl}
+            src={image}
+            onClick={toggleImage}
             alt="project"
             quality={95}
-            className="py-2 px-5 sm:pl-10 sm:pr-2 sm:pt-5"
+            className="py-2 px-5 sm:pl-10 sm:pr-2 sm:pt-5 lg:object-contain lg:h-96"
           />
 
           <div className="py-4 px-5 sm:pl-10 sm:pr-2 sm:pt-5 flex justify-start gap-4">

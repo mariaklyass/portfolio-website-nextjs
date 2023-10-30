@@ -28,10 +28,16 @@ export default function Intro() {
       id="home"
       className="mb-28 mt-12 sm:mt-9 max-w-[50rem] text-center sm:mb-0 scroll-mt-[15rem] h-screen"
     >
-      <h1 className="w-full mx-auto py-2 text-center text-5xl md:text-7xl mb-1 md:mb-3 font-bold">
+      <h1
+        className="w-full mx-auto py-2 text-center text-5xl md:text-7xl mb-1 md:mb-3 font-bold
+      drop-shadow-[0_1.2px_1.2px_rgba(255,255,255,0.8)]"
+      >
         Maria Klyass
       </h1>
-      <p className="text-center text-xl md:text-3xl mb-3 font-medium bg-slate-50/10 mix-blend-soft-luminosity rounded-lg p-2 backdrop-blur-[0.5rem] shadow-lg shadow-black/5">
+      <p
+        className="text-center text-xl md:text-3xl mb-3 font-medium bg-slate-50/10 mix-blend-soft-luminosity rounded-lg p-2 backdrop-blur-[0.5rem] shadow-lg shadow-black/5
+      md:drop-shadow-[0_1.2px_1.2px_rgba(255,255,255,0.8)]"
+      >
         Frontend developer
       </p>
       <div className="flex items-center justify-center">
@@ -59,10 +65,10 @@ export default function Intro() {
           x: { duration: 1 },
         }}
       >
-        Hi, I&apos;m Maria, a frontend developer. Lorem ipsum dolor, sit amet
-        consectetur adipisicing elit. Omnis asperiores ratione obcaecati
-        repellendus ullam eius dolor libero repellat sunt hic. Rem
-        necessitatibus, rerum obcaecati provident at id commodi dolores quos!
+        Hi! I&apos;m Maria, a Frontend Developer fascinated with both technical
+        and visual aspects of web development. I started with building simple
+        HTML, CSS & JavaScript sites; now in my work I use React, Vite / NextJS,
+        Tailwind and other frameworks & libraries.
       </motion.p>
 
       <motion.div
