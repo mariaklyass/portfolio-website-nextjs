@@ -26,16 +26,16 @@ export default function About() {
         About me
       </h2>
       <p className="bg-slate-50/10 mix-blend-soft-luminosity rounded-lg p-3 backdrop-blur-[0.5rem] shadow-lg shadow-black/5 dark:bg-slate-50/40 dark:text-stone-950">
-        I'm a self-taught Frontend Developer 🤓 <br />
-        I'm head over heels with web-development, and for year and a half that I
-        have been studying, this feeling has only grown. My main sources of
-        knowledge are Jonas Schmedtmann's HTML & CSS and JavaScript courses,
-        Colt Steele's React course, freeCodeCamp Responsive Web Design
-        curriculum and the Rolling Scopes School JavaScript/Front-end course.
-        ...And hundreds and hundreds of hours of Youtube videos & reading Stack
-        Overflow 😅 <br /> I enjoy the process of learning new stuff, especially
-        the moment of doing something that was difficult and unclear before.{" "}
-        <br />
+        I&apos;m a self-taught Frontend Developer 🤓 <br />
+        I&apos;m head over heels with web-development, and for year and a half
+        that I have been studying, this feeling has only grown. My main sources
+        of knowledge are Jonas Schmedtmann&apos;s HTML & CSS and JavaScript
+        courses, Colt Steele&apos;s React course, freeCodeCamp Responsive Web
+        Design curriculum and the Rolling Scopes School JavaScript/Front-end
+        course. ...And hundreds and hundreds of hours of Youtube videos &
+        reading Stack Overflow 😅 <br /> I enjoy the process of learning new
+        stuff, especially the moment of doing something that was difficult and
+        unclear before. <br />
         Besides programming, I like music and going to the gym.
       </p>
     </section>
