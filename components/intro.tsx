@@ -82,7 +82,7 @@ export default function Intro() {
         }}
       >
         <a
-          href="/resume.pdf"
+          href="/Maria Klyass_CV.pdf"
           download={true}
           className="flex items-center gap-1 bg-[#5C5470]/50 backdrop-blur-[0.12rem] shadow-sm p-2.5 px-4 rounded-lg text-lg font-semibold hover:bg-stone-500/50 hover:text-stone-100 focus:scale-[1.12] hover:scale-[1.12] active:scale-105 transition dark:bg-[#B9B4C7]/40 dark:text-stone-300"
         >
@@ -120,7 +120,7 @@ export default function Intro() {
       >
         <a
           className="bg-[#f0eeed] p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 text-[1.5rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://linkedin.com/in/maria-klyass"
           target="_blank"
         >
           <BsLinkedin />
@@ -128,7 +128,7 @@ export default function Intro() {
 
         <a
           className="bg-[#f0eeed] p-4 text-gray-700 flex items-center gap-2 text-[1.5rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/mariaklyass"
           target="_blank"
         >
           <FaGithubSquare />
